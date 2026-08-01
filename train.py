@@ -16,7 +16,7 @@ root.title("Academic Matcher")
 w, h = root.winfo_screenwidth(), root.winfo_screenheight()
 root.geometry("%dx%d+0+0" % (w, h))
 
-image2 = Image.open('2.jpg')
+image2 = Image.open('assets/2.jpg')
 image2 = image2.resize((w, h))
 
 background_image = ImageTk.PhotoImage(image2)

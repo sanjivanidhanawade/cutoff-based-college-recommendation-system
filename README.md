@@ -4,7 +4,7 @@ A desktop application (Tkinter GUI) that predicts/recommends colleges to student
 
 ## Screenshots
 
-**Home screen**
+**Home screen** — `python GUI_main.py`
 
 ![Academic Matcher home screen](screenshots/01-home.jpg)
 
@@ -26,7 +26,7 @@ A desktop application (Tkinter GUI) that predicts/recommends colleges to student
   - Random Forest Classifier
   - Decision Tree Classifier
 - Model training pipeline with accuracy/classification reports (`train.py`)
-- Simple, animated Tkinter GUI with video splash screen
+- Simple Tkinter GUI
 
 ## Tech Stack
 
@@ -34,7 +34,7 @@ A desktop application (Tkinter GUI) that predicts/recommends colleges to student
 - scikit-learn (SVM, Random Forest, Decision Tree)
 - pandas, numpy
 - SQLite (user auth)
-- OpenCV / tkvideo (video playback), Pillow (images)
+- Pillow (images)
 
 ## Project Structure
 
@@ -49,7 +49,6 @@ Admission_Predict.csv  Dataset
 dataset.csv
 train.csv
 assets/                 UI images
-demo/                   Background clips used by the splash screen
 screenshots/            README screenshots
 ```
 
